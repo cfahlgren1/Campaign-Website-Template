@@ -1,0 +1,147 @@
+body
+{
+    background-color: lightcyan;
+    margin: 0;
+}
+
+
+h1
+{
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    padding-right: 250px;
+    font-weight: bold;
+    font-family: 'Oswald', sans-serif;
+}
+
+h2:after
+{
+    content:' ';
+    display:block;
+    border:2px solid black;
+    width: 450px;
+}
+h4
+{
+    font-weight: bold;
+}
+img
+{
+    max-width: 30%;
+    height: auto;
+    float: right;
+    padding-top: 10px;
+    padding-right: 50px;
+}
+.flag
+{
+    float:left;
+    padding-top: 20px;
+    padding-bottom:20px;"
+}
+.value-headings
+{
+    padding-left: 30px;
+    padding-right: 30px;
+    font-family: 'Oswald', sans-serif;
+}
+.value-paragraph
+{
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 20px;
+    word-spacing: 2px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.footer
+{
+    font-size: 14px;
+    text-align: center;
+    word-spacing: 2px;
+    height: 100%;
+    width: 100%;
+    display: inline-block;
+    font-family: 'Oswald', sans-serif;
+    color: white;
+}
+
+/*#############################*/
+/* Navigation Menu */
+.topnav
+{
+    overflow: hidden;
+    background-color: #333;
+}
+.topnav a
+{
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    padding: 18px 20px;
+    text-decoration: none;
+    letter-spacing: 1px;
+    font-size: 17px;
+    font-family: 'Oswald', sans-serif;
+}
+.topnav a:hover
+{
+    background-color: #ddd;
+    color: black;
+}
+.topnav a.active {
+    background-color: #2196F3;
+    color: white;
+}
+/* Navigation Menu */
+/*#############################*/
+
+/*#############################*/
+/* Button Properties*/
+.btn
+{
+    border: none; /* Remove borders */
+    color: white; /* Add a text color */
+    padding: 14px 28px; /* Add some padding */
+    cursor: pointer; /* Add a pointer cursor on mouse-over */
+}
+.info {background-color: #2196F3;} /* Blue */
+.info:hover {background: #0b7dda;}
+
+.danger {background-color: #f44336;} /* Red */
+.danger:hover {background: #da190b;}
+/* Button Properties*/
+/*#############################*/
+
+/*#############################*/
+/*List properties for accomplishments list */
+li:before
+{
+    content: "\2713";
+    color: #2196F3;
+    margin-left: -1em;
+    margin-right: .100em;
+}
+li
+{
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 1px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+ul
+{
+    padding-left: 40px;
+    padding-bottom: 10px;
+    text-indent: 2px;
+    width: 70%;
+    float: left;
+    list-style: none;
+    list-style-position: outside;
+}
+/*List properties for accomplishments list */
+/*#############################*/

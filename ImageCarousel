@@ -1,0 +1,24 @@
+<!-- Carousel -->
+<div class = "w3-containter w3-super-light-grey">
+    <!-- Image Carousel -->
+    <div class="w3-content" style="max-width:800px; padding-left: 218px;padding-top: 20px;">
+        <img class="mySlides" src="images/ImageCarousel.png">
+        <img class="mySlides" src="images/ImageCarousel2.png">
+        <img class="mySlides" src="images/ImageCarousel3.png">
+    </div>
+    <!-- Image Carousel -->
+
+
+    <!-- Buttons on Carousel -->
+    <div class="w3-center">
+        <div class="w3-section">
+            <button class="w3-button" onclick="plusDivs(-1)">Prev</button>
+            <button class="w3-button" onclick="plusDivs(1)">Next</button>
+        </div>
+        <button class="w3-button demo" onclick="currentDiv(1)">1</button>
+        <button class="w3-button demo" onclick="currentDiv(2)">2</button>
+        <button class="w3-button demo" onclick="currentDiv(3)">3</button>
+    </div>
+    <!-- Buttons on Carousel -->
+</div>
+<!-- Carousel -->
